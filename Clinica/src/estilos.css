@@ -1,0 +1,184 @@
+body {
+     background-color:#34495E;
+}
+h1.titulo{
+  text-align: center;
+ color : black;
+  text-decoration: none;
+}
+p.grett{
+  color: #ECF0F1;
+  text-align: center;
+  
+}
+main.main{
+  color: #ECF0F1;
+
+}
+main {
+  padding: 1rem;
+  flex-grow: 1;
+  padding: 1rem;
+}
+
+p.contador{
+  color:#ECF0F1;
+}
+img.fox{
+  width: 200px;
+  height: 200px;
+  display:block;
+  margin:auto;
+  height: 100%;
+ 
+
+}
+nav{
+  margin: 50px;
+  color: antiquewhite;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+}
+nav a {
+
+      color : black;
+      text-decoration: none;
+      margin-left: 16px;
+      font-size: 30px;
+  
+}
+footer {
+  background-color: black;
+  padding: 0.5rem 0;
+  text-align: center;
+  bottom: 0;
+  color:aliceblue;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+}
+.productsContainer {
+  margin-top: 5vh;
+  text-align: center;
+}
+.titleForContainers {
+  color:#C9EEF5;
+  font-size: 2rem;
+  margin: 5vh;
+  text-align: center;
+}
+.cardContainer {
+  width: 100%;
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#card,
+#detailCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 40vh;
+  padding: 10px;
+  margin: 2.5vh;
+  margin-left: 4%;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #FFE10D;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+.headercolor{
+  color: aquamarine;
+ font-size: 2rem;
+  
+}
+.headercolor:hover{
+  color: deepskyblue;
+}
+
+#detailCard {
+  height: 65vh;
+}
+.cardTitle {
+  color: black;
+  font-size: 1.4rem;
+  margin-bottom: 4vh;
+}
+.cardInfo {
+  font-size: 1.1rem;
+  margin: 6px;
+  font-style: italic;
+}
+.cardPrice {
+  font-size: 1.4rem;
+  margin: 4vh;
+  font-style: bold;
+}
+.productImg {
+  width: 30%;
+  height: 80%;
+}
+.infoContainer {
+  width: 60%;
+}
+#counterContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin-top: 1vh;
+  height: 30%;
+  border-radius: 5px;
+}
+#itemCount {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.counter {
+  font-size: 1.4rem;
+}
+.addCart {
+  width: 50%;
+  margin-top: 1vh;
+  height: 5vh;
+  background-color: #004d7c;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.4rem;
+}
+
+.ventana{
+  background-color:aqua;
+  width:300px;
+  padding: 10px 20px;
+  margin: 20% auto;
+  position: relative;
+}
+.modal{
+  background-color: rgba(0,0,0,.8);
+  position:fixed;
+  top:-250px;
+  right:0;
+  bottom:0;
+  left:0;
+  opacity:0;
+  pointer-events:none;
+  transition: all 1s;
+}
+#IrVentanaFlotante:target{
+  opacity:1;
+  pointer-events:auto;
+}
+.opcion{/*width: 100px;
+        background-color:yellow;
+border:1px solid black;*/}
